@@ -35,7 +35,7 @@ string removeComments(string prgrm)
         else if (prgrm[i] == '/' && prgrm[i+1] == '/')
             single_line_comment = true, i++;
         else if (prgrm[i] == '/' && prgrm[i+1] == '*')
-            multiple_line_commentt = true,  i++;
+            multiple_line_comment = true,  i++;
  
         // Если мы находимся вне комментария - добавить данный символ в результирующий string, который будет записан в итоговую версию программы
         else  
